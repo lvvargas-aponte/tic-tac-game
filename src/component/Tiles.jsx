@@ -1,8 +1,11 @@
 import React from "react";
 
-const Tiles = (props) => {
-
-   // <button  onClick={{props.onClick}>{props.value}} ></button>
-}
+const Tiles = ({ value, onClick }) => {
+  return (
+    <button className="tile" onClick={onClick}>
+      {value}
+    </button>
+  );
+};
 
 export default Tiles;

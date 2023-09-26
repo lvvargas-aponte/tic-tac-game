@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import App from './App';
+import Game from './Game';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +9,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Game />
   </React.StrictMode>
 );
 
