@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Game from './Game';
+import GameOver from './component/GameOver';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import reportWebVitals from './reportWebVitals';
